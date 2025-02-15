@@ -50,3 +50,47 @@ nav {
     background-color: #C99E13;
     color: #000000;
 }
+h1 { 
+    color: #04572D;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 65px;
+    text-decoration-line: underline;
+    text-underline-offset: 25px;
+    padding-bottom: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.parrafos {
+    margin: auto;
+    width: 1700px;
+    height: 1150px;
+    background-color: rgb(216, 114, 114);
+}
+h2 { 
+    color: #04572D;
+    font-size: 45px;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.texto {
+    color: #04572D;
+    font-size: 40px;
+    line-height: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+}
+.datos {
+    width: 700px;
+    height: 940px;
+    background-color: #04572D;
+}
+.foto {
+    float: right;
+    width: 850px;
+    height: 940px;
+    background-color: #C99E13;
+}
