@@ -151,6 +151,7 @@ form {
     transition: color 0.3s;
     cursor: pointer;
 }
-.star:hover {
+.star:hover,
+.star.checked {
     color: gold;
 }
