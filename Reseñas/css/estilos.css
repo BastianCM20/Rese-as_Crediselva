@@ -130,7 +130,7 @@ form {
     box-shadow: 0 0 20px rgba(0,0,0.2);
     border-radius: 25px;
     color: #fcfef7;
-    font-size: 15px;
+    font-size: 25px;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -172,4 +172,45 @@ form {
     line-height: 60px;
     padding-left: 30px;
     padding-right: 30px;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.preguntas {
+    margin: auto;
+    width: 1500px;
+    height: 200px;
+    background-color: rgb(233, 158, 158);
+    transform: translate(0%, 55%)
+}
+.preguntas {
+    background: #fff;
+}
+.preguntas label {
+    display: block;
+    padding: 20px;
+    font-size: 40px;
+    background: #04572D;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 2px;
+    transition: all 300ms ease;
+}
+.preguntas label:hover {
+    background: #C99E13; 
+}
+.preguntas .contenido-desplegable {
+    padding: 0%;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+.btn-desplegable:checked ~ .contido-desplegable {
+    max-height: 600px;
+    padding: 15px 0px;
+}
+.btn-desplegable {
+    display: none;
 }
