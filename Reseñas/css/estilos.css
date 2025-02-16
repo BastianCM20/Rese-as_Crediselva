@@ -181,8 +181,8 @@ form {
     margin: auto;
     width: 1500px;
     height: 200px;
-    background-color: rgb(233, 158, 158);
-    transform: translate(0%, 55%)
+    background-color: white;
+    transform: translate(0%, 55%);
 }
 .preguntas {
     background: #fff;
@@ -213,4 +213,54 @@ form {
 }
 .btn-desplegable {
     display: none;
+}
+.terminos {
+        margin: auto;
+        width: 1500px;
+        height: 500px;
+        background-color: #FAF3E3; 
+        transform: translate(0%, 15%);
+}
+.title {
+    text-align: center;
+    padding-top:30px;
+    font-size: 60px;
+    font-style: normal;
+    color: #04572D;
+}
+.all {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 43px;
+}
+footer {
+    padding-top: 100px;
+}
+.pie-pagina {
+    display: flex;
+    justify-content:space-around;
+    color: #FAF3E3;
+    background-color: #04572D;
+}
+.subpagina {
+    padding: 11px;
+    font-size: 18px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #FAF3E3;
+}
+.uno {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #FAF3E3;
+}
+.pie-pagina .redes {
+    text-decoration: none;
+    color: #FAF3E3;
+}
+.zz {
+    color: #FAF3E3;
 }
